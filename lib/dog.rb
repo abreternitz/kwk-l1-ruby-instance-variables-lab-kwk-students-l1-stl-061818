@@ -1,15 +1,12 @@
 # dog.rb
 class Dog
   def initialize(dog_name)
+    @dog_name=dog_name
   end
   def method
-    this_dogs_name = dog_name
+  @dog_name
   end
- 
-  def name
-    this_dogs_name
-  end
-end
+ end
 
 lassie Dog.new ("Lassie")
 
