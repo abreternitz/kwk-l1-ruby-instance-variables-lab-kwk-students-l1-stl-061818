@@ -10,4 +10,4 @@ class Dog
 
 lassie Dog.new ("Lassie")
 
-puts "#{lassie.name}"
+puts "#{lassie.dog_name}"
