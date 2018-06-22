@@ -3,7 +3,7 @@ class Dog
   def initialize(dog_name)
     @dog_name=dog_name
   end
-  def method
+  def name
   @dog_name
   end
  end
