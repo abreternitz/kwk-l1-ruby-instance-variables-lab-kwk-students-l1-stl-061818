@@ -2,7 +2,7 @@
 class Dog
   def initialize(dog_name)
   end
-  def name
+  def method
     this_dogs_name = dog_name
   end
  
