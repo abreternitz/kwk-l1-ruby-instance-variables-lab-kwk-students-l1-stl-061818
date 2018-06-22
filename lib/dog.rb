@@ -1,6 +1,8 @@
 # dog.rb
 class Dog
-  def name=(dog_name)
+  def initialize(dog_name)
+  end
+  def name
     this_dogs_name = dog_name
   end
  
@@ -9,6 +11,6 @@ class Dog
   end
 end
 
-lassie Dog.new("Lassie")
+lassie Dog.new ("Lassie")
 
 puts "#{lassie.name}"
